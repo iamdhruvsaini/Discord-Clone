@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
+@font-face {
+  font-family: "nord";
+  src: url(./Assets/fonts/ginto/ABCGintoNord-Black-Trial-BF651b7b7719b0f.otf
+
+  );
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  background-image: url(./Assets/bg.png);
+  width:100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:10vh;
+  gap:10vw;
+}
+.logo{
+  background-image: url(./Assets/dhruv.svg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height:4vh;
+  width:18vw;
+}
+nav > ul{
+  display: flex;
+  gap:3vw;
+  list-style: none;
+  justify-content: start;
+}
+
+nav > ul >li>a{
+  text-decoration: none;
+  font-size: 1.12vw;
+  color: white;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+.login-btn{
+  background-color:white;
+  padding:0.6vw 0;
+  width:4.6vw;
+  border-radius: 16px;
+}
+.login-btn p{
+  text-align: center;
+  font-size: 1vw;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.left-bar{
+  padding-top: 18vh;
+}
+.left-top{
+  padding-left: 11vw;
+  text-transform: uppercase;
+  
+}
+.left-top p{
+  font-family: "nord";
+  font-size: 3.3vw;
+  line-height: 4vw;
+  color: white;
+
+}
+
+.left-bottom{
+  padding-left: 11vw;
+  padding-top: 6vh;  
+  padding-right: 3vw;
+  width:42.6vw;
+  padding-bottom: 19.48vh;
+
+  
+}
+
+.left-bottom p{
+  font-size: 1.6vw;
+  font-family: "Open Sans" , sans-serif;
+  color: white;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:6vw;
+  padding-bottom: 10vh;
+  font-weight: 700;
+}
+.btn button{
+  width:22vw;
+  padding:1.2vw 0;
+  font-size: 1.4vw;
+  border-radius: 24px;
+  border: none;
+  outline: none;
+}
+.download > button{
+  background-color: white;
+  color:black;
+}
+.open > button{
+  background-color:#161CBB;
+  color:white;
+}
+.glass-box{
+  position: relative;
+  padding-top: 34vh;
+  padding-bottom: 2vh;
+  background-color: royalblue;
+}
+
+.glass{
+  position: relative;
+  height:90vh;
+  width:90vw;
+  border:3px solid #7887F1;
+  margin:0 auto;
+  border-radius: 56px;
+  background-color:rgba(255,255,255, 0.2);
+  z-index: 1;
+  padding:0.6vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boy{
+  background-image: url(./Assets/asset\ 18.gif);
+  width:16vw;
+  height:20vh;
+  background-position:center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right:10vw;
+  top:14vh;
+  z-index: 0;
+}
+.chat,.main-chat,.call{
+  width: 130%;
+  height:100%;
+  background-image: url(./Assets/asset\ 19.webp);
+  border-radius: 54px;
+}
+.mobile,.discord-app,.yt{
+  width:100%;
+  height: 100%;
+  background-image: url(./Assets/asset\ 20.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.right-text{
+  width:100%;
+  padding-left: 4vw;
+  padding-top: 12%;
+}
+.right-text > div >p , .stream >div>p{
+  font-family: "nord";
+  font-size: 3.3vw;
+  line-height: 3.6vw;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+} 
+
+.right-text > p{
+  padding-top: 6vh;
+  width:90%;
+  font-size: 2vw;
+  color:white;
+}
+.box2{
+  padding-top: 30vh;
+}
+.stream{
+  width:40%;
+}
+.stream-img,.msg-img{
+  width:56%;
+  height:100%;
+  background-image: url(./Assets/asset\ 23.svg);
+  border-radius: 54px;
+}
+.player,.msg{
+  width:100%;
+  height:100%;
+  background-image: url(./Assets/asset\ 22.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.stream > div{
+  padding-top: 30%;
+  padding-left: 8%;
+}
+.stream > p{
+  padding-top: 5%;
+  padding-left: 8%;
+  font-size: 2vw;
+  color:white;
+}
+
+.box3{
+  position: relative;
+  padding-top: 32vh;
+  overflow: hidden;
+}
+.discord-box{
+  width:20vw;
+  height:36vh;
+  background-image: url(./Assets/asset\ 24.webp);
+  background-size: contain;
+  position: absolute;
+  right:-6vh;
+  top:15vh;
+  z-index: 2;
+}
+.main-chat{
+  background-image: url(./Assets/asset\ 25.webp);
+}
+.main-chat > .discord-app{
+  background-image: url(./Assets/asset\ 26.webp); 
+}
+.box4{
+  padding-top: 30vh;
+}
+
+
+.tape{
+
+  margin-top: 30vh;
+  height:20vh;
+  width:120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:3vw;
+  overflow: hidden;
+  background-color: #7887F1;
+
+}
+
+.discord-image{
+  position: relative;
+  width:5vw;
+  height:5vh;
+  background-image: url(/Assets/asset\ 29.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: move 10s linear infinite;
+}
+.play,.hang-out,.discord-chat,.talk >p{
+  position: relative;
+  font-size: 5vw;
+  color: white;
+  font-family:"nord" ;
+  animation: move 10s linear infinite;
+  
+}
+
+@keyframes move{
+  0%{
+    left: -100%;
+  }
+  100%{
+    left: 100%;
+  }
+}
+.msg{
+  background-image: url(./Assets/asset\ 69.jpeg);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 54px;
+}
+.box5{
+  position: relative;
+  padding-top:32vh;
+}
+.float-girl{
+  position: absolute;
+  background-image: url(./Assets/asset\ 34.webp);
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size: contain;
+  height:24vh;
+  width:16vw;
+  top:12vh;
+  z-index: 2;
+  right:18vw;
+}
+.float-girl2{
+  position: absolute;
+  right:6vw;
+  top:12vh;
+  background-image: url(./Assets/asset\ 36.webp);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width:14vw;
+  z-index: 2;
+  height:34vh;
+}
+
+
+.call{
+  background-image: none;
+}
+.yt{
+  background-image: url(./Assets/asset\ 71.jpeg);
+  background-size: cover;
+  border-radius: 54px;
+}
+
+
+.branding-box{
+  background: rgb(24,51,200);
+  background: linear-gradient(90deg, rgba(24,51,200,1) 22%, rgba(179,17,218,1) 97%);
+  padding-bottom: 2vh;
+}
+
+.scroll-text{
+  padding-top: 30vh;
+  padding-bottom: 10vh;
+}
+.scroll-text > p{
+  font-size: 4vw;
+  color: white;
+  font-family: "nord";
+  text-align: center;
+}
+.branding-box > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4vh;
+}
+.branding-box > div:nth-child(2) > button{
+  padding:0.8vw;
+  width:20vw;
+  border-radius: 24px;
+  font-size: 1.2vw;
+  font-weight: 600;
+  color:white;
+  background-color:#ce92ff;
+  outline: none;
+  border: none;
+
+}
+.discord-branding{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discord-branding > img{
+  width:98%;
+}
+
+.robot{
+  position: absolute;
+  top:4vh;
+  right:10vw;
+  background-image: url(./Assets/asset\ 79.svg);
+  background-size: contain;
+  background-position: center center;
+  height:24vh;
+  width:24vw;
+  background-repeat: no-repeat;
+}
+.leaf{
+  position: absolute;
+  background-image: url(./Assets/asset\ 47.webp);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  top:6vh;
+  height:10vh;
+  width:10vw;
+}
+.goat{
+  position: absolute;
+  bottom:0;
+  left:38vw;
+  height:32vh;
+  width:12vw;
+  background-image: url(./Assets/asset\ 46.webp);
+  background-size: contain;
+  background-position: center center;
+  
+  background-repeat: no-repeat;
+}
+
+
